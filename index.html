@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Consulta de CEP</title>
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src="./scripts/cep.js"></script>
+        <link rel="shortcut icon" href="./images/share_64.png">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <center>
+            <div id="page-body">
+                <form>
+                    <fieldset>
+
+                        <h2>Bem vindo à busca de CEP</h2>
+
+                        <div id="bottons">
+
+                            <a href="index.html">Busca por CEP</a>
+                            <a href="rua.html">Busca por RUA</a>
+
+                        </div>
+
+                        <div class="fields">
+                            <label>CEP:</label>
+                            <input type="text" id="txtCep" maxlength="8" required="required" placeholder="Digite um CEP válido">
+                        </div>
+
+                        <div class="fields">
+                            <label>Estado:</label>
+                            <input type="text" id="txtEstado">
+                        </div>
+
+                        <div class="fields">
+                            <label>Cidade:</label>
+                            <input type="text" id="txtCidade">
+                        </div>
+
+                        <div class="fields">
+                            <label>Bairro:</label>
+                            <input type="text" id="txtBairro">
+                        </div>
+
+                        <div class="fields">
+                            <label>Rua:</label>
+                            <input type="text" id="txtRua">
+                        </div>
+
+                        <div class="fields">
+                            <label>Complemento:</label>
+                            <input type="text" id="txtComplemento">
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
